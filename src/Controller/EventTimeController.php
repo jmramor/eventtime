@@ -21,5 +21,5 @@ class EventTimeController extends ControllerBase {
       '#markup' => $this->t('Hello, World!'),
     ];
   }
-
+  
 }
