@@ -1,0 +1,6 @@
+name: Event Time Module
+description: Adds custom block which displays different strings based on time of the event and current time.
+package: Custom
+
+type: module
+core: 8.x

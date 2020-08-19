@@ -1,0 +1,7 @@
+eventtime.content:
+  path: '/eventtime'
+  defaults:
+    _controller: '\Drupal\event_time\Controller\EventTimeController::content'
+    _title: 'event_time'
+  requirements:
+    _permission: 'access content'

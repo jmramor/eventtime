@@ -1,0 +1,6 @@
+eventtime.admin:
+  title: 'Event time module settings'
+  description: 'Page with Event time module settings'
+  parent: system.admin_config_development
+  route_name: eventtime.content
+  weight: 100
