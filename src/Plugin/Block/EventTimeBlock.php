@@ -88,12 +88,23 @@ class EventTimeBlock extends BlockBase {
    * returns difference in day between current date and $date
    */
   public function dayDifference($date){
+    /**
+     * gets current time (timestamp and date)
+     */
     $current_timestamp = time();
     $current_date = date("Y-m-d", $current_timestamp);
     
+    /**
+     * get event timestamp and formats it into same format as current_date
+     */
     $event_timestamp = strtotime($date);
     $event_date = date("Y-m-d", $event_timestamp);
 
+    /**
+     * If events are happening on the same day return that the event is happening today,
+     * else calculates difference in days between event date and current date
+     * return string based on calculation results
+     */
     if( $event_date == $current_date ){
       return "This event is happening today.";
     }

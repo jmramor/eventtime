@@ -18,7 +18,7 @@ class EventTimeController extends ControllerBase {
   public function content() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Hello, World!'),
+      '#markup' => $this->t('Page for potential settings of Event Time Module'),
     ];
   }
   
