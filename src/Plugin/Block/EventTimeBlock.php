@@ -82,9 +82,6 @@ class EventTimeBlock extends BlockBase {
     else{
       return 'This node is not of type "event"';
     }
-
-
-    return $number_of_rows;
   }
 
   /**
